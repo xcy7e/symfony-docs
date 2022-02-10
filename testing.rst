@@ -314,6 +314,9 @@ After that, you can create the test database and all tables using:
 
     # create the tables/columns in the test database
     $ php bin/console --env=test doctrine:schema:create
+    
+    # or create the tables/columns in the test database using migrations
+    $ php bin/console --env=test doctrine:migrations:migrate
 
 .. tip::
 
